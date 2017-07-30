@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* Basic Style Classes for Entire Page*/
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    color:  gold;
+}
+
+a:hover {
+    color:  goldenrod;
+}
+
+
+/* Navigation Classes */
+
+nav {
+    background-color: black;
+    color:  white;
+}
+
+/* list-style: none only applies to ul within nav tags */
+nav ul {
+    list-style: none;
+}
+
+li{
+    padding: 0 10px;
+}
+
+/* Generic Classes */
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.button {
+    color: aqua;
+    background-color: antiquewhite;
+    padding: 1px 10px;
+    width: 200px;
+    
+}
+
+/* Body Content Classes */
+
+.centerSect {
+    margin: 0 5%;
+    text-align: justify;
+}
+
+.red {
+    color: red;
+}
+
+/* Footer Content Classes */
+.footerSect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    
+    
+}
