@@ -4,9 +4,9 @@
 
 // In the context of my functions, $label refers to the text shown to end users
 // $name refers to the "name" of the tags, I should add in a $class variable in the future
-// 
+// $value refers to the data inputted by users
 
-// Use this function to create a textbox for form input
+// Use this function to create a textbox for form input.
 function textField($label, $name, $value){
 
     $field = '<input type="text"'; 
