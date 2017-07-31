@@ -10,17 +10,33 @@ include_once("layouts/navigations.php");
 
 //var_dump($_GET);
 
-switch($_GET["page"]){
-    case "content":
-        include("content.php");
-        break;
-    case "create":
-        include("create_data.php");
-        break;
-    case "view":
-        include("view_data.php");
-        break;
+//* Not a good idea when we navigate away from index.php...somehow I managed to fix it
+if(isset($_GET))
+{
+     switch($_GET["page"]){
+        case "home":
+            include("content.php");
+            break;
+        case "create_data":
+            include("create_data.php");
+            break;
+        case "view":
+            include("view.php");
+            break;
+        case "delete":
+            include("delete.php");
+            break;
+        case "update":
+            include("update.php");
+            break;
+         case "content":
+            include("content.php");
+            break;
+     }   
+    
 }
+
+//*/
 
 include_once("layouts/footer.php");
 

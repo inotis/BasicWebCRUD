@@ -90,7 +90,7 @@ if(isset($_POST["submit"]))
 }
 
 // Start of form
-formStart("index.php", "post", "basicForm");
+formStart("index.php?page=create_data", "post", "basicForm");
 
 
 // There would be a display error, bug when user subitted their input. "\" would appear before quotes or other special characters

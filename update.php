@@ -8,11 +8,14 @@ include_once("functions/validation_function.php");
 include_once("layouts/head.php");
 include_once("layouts/navigations.php");
 
-//Insert Content Here
-lorem();
+// INSERT CONTENT FROM HERE
+
+echo "UPDATE DATA";
 
 
 
+
+// END 
 
 include_once("layouts/footer.php");
 ?>
